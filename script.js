@@ -841,6 +841,9 @@ var jsonData = [
     "keywords": "nose tone 3"
   }
   ];
+
+cards = document.getElementById("card-container");
+  
 function printCard(Arr) {
   for(var i=0; i<Arr.length; i++) {
     cards.innerHTML += `<div>
@@ -863,8 +866,7 @@ function search(ev) {
   }));
 }
 
-window.onload = function() {
-  cards = document.getElementById("card-container");
-  
-}
+
+
+
 
